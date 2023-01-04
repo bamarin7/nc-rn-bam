@@ -6,9 +6,9 @@ import DirectoryScreen from './DirectoryScreen';
 import { createStackNavigator } from '@react-navigation/stack';
 
 const DirectoryNavigator = () => {
-    const stack = createStackNavigator();
+    const Stack = createStackNavigator();
     return (
-        <stack.Navigator
+        <Stack.Navigator
             initialRouteName='Directory'
             screenOptions={{
                 headerStyle: {
@@ -29,7 +29,7 @@ const DirectoryNavigator = () => {
                     title: route.params.campsite.name
                 })}
             />
-        </stack.Navigator>
+        </Stack.Navigator>
     )
 }
 
