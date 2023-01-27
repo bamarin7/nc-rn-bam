@@ -16,8 +16,7 @@ const RenderCampsite = (props) => {
         onPanResponderGrant: () => {
             view.current
                 .rubberBand(1000)
-                .then((endState) => console.log(endState.finished ? 'finished' : 'canceled')
-                );
+                .then((endState) => console.log(endState.finished ? 'finished' : 'canceled'));
         },
         onPanResponderEnd: (e, gestureState) => {
             console.log('pan responder end', gestureState);
