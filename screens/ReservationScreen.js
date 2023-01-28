@@ -37,7 +37,7 @@ const ReservationScreen = () => {
       { cancelable: false }
     );
   };
-  
+
   const resetForm = () => {
     setCampers(1);
     setHikeIn(false);
