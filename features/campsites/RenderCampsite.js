@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, PanResponder, Alert, Modal } from 'react-native
 import { Card, Icon } from 'react-native-elements';
 import { baseUrl } from '../../shared/baseUrl';
 import * as Animatable from 'react-native-animatable';
-import CampsiteInfoScreen from '../../screens/CampsiteInfoScreen';
 
 const RenderCampsite = (props) => {
     const { campsite } = props;
